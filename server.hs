@@ -16,8 +16,6 @@ mkYesod "Server" [parseRoutes|
 
 instance Yesod Server
 
-
-
 -- handlers
 getIndex = do
     defaultLayout [whamlet|<h1 align="center">Welcome</h1>|]
