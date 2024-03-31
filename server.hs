@@ -6,9 +6,6 @@
 
 import Yesod
 
-import System.Random
-import Control.Monad (replicateM)
-
 data Server = Server
 
 -- routes
